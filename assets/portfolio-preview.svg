@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">David Saroli Waruwu | Geological Engineering Portfolio</title>
+  <desc id="desc">Professional social media preview for a geological engineering portfolio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071a12"/>
+      <stop offset="40%" stop-color="#0c2619"/>
+      <stop offset="100%" stop-color="#173f2d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#76d79b"/>
+      <stop offset="100%" stop-color="#dfe8a3"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#76d79b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.15">
+    <path d="M-40 120C220 25 350 10 520 95C690 180 840 185 1240 35V260C912 365 740 360 548 284C348 205 230 206 -40 295Z" fill="#76d79b"/>
+    <path d="M-20 390C190 310 360 330 530 412C705 496 930 498 1220 400V630H0Z" fill="#1b4f3d"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="90" y="90" width="1020" height="440" rx="34" fill="#081d14" fill-opacity="0.78" stroke="#76d79b" stroke-opacity="0.45"/>
+  </g>
+
+  <circle cx="955" cy="175" r="145" fill="#76d79b" opacity="0.12"/>
+  <circle cx="980" cy="470" r="210" fill="#76d79b" opacity="0.08"/>
+  <circle cx="180" cy="515" r="175" fill="#76d79b" opacity="0.08"/>
+
+  <g>
+    <text x="160" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" fill="#f5f8f6">David Saroli Waruwu</text>
+    <text x="160" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#76d79b">Geological Engineering Portfolio</text>
+    <text x="160" y="376" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#dfece4">Petroleum Geology • Subsurface Interpretation • Geothermal • CCUS</text>
+  </g>
+
+  <g>
+    <rect x="160" y="428" width="160" height="16" rx="8" fill="url(#accent)" fill-opacity="0.85"/>
+    <rect x="340" y="428" width="190" height="16" rx="8" fill="url(#accent)" fill-opacity="0.75"/>
+    <rect x="560" y="428" width="220" height="16" rx="8" fill="url(#accent)" fill-opacity="0.7"/>
+    <rect x="810" y="428" width="170" height="16" rx="8" fill="url(#accent)" fill-opacity="0.8"/>
+  </g>
+</svg>
